@@ -64,7 +64,11 @@
             margin-top: 15px;
             margin-bottom: 15px;
         }
-
+        .text{
+            span{
+                color:$tittles;
+            }
+        }
         p{
             color: $subtittles;
             font-size: 18px;

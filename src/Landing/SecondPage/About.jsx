@@ -19,19 +19,19 @@ const About = () => {
                 <div className="name"> Sergio Alejandro <br/> Arévalo Rodríguez</div>
                 <div className="text">
                     <p>
-                    👋 My name is Sergio Arevalo, or Serch is fine.
+                    <span>👋</span> My name is Sergio Arevalo, or Serch is fine.
                     <br/>
-                    👨‍💻 I´ve been developing and programming Front interfaces with JavaScript, 
+                    <span>👨‍💻</span> I´ve been developing and programming Front interfaces with JavaScript,Typescript 
                     React-Redux, Figma, Node JS, Sass, MUI, Bootstrap, Fontawesome, Formik-Yup, consuming APIs using JS. On the other hand, with logic operations
                     and data processes in Back, I´ve used technologies like Express JS, PostgreSQL,
                     Sequelize, Firebase, Node JS, Dotenv, Mercado Pago, Nodemailer, Axios, Nodemon and Morgan.
                     <br/>
-                    🎓 I graduated from University Business Foundation of the Chamber of Commerce of Bogota
+                    <span>🎓</span> I graduated from University Business Foundation of the Chamber of Commerce of Bogota
                     with a Bachelor of International Business degree in 2019, and Fullstack Developer degree from Soy Henry Institute in 2023.
                     <br/>
-                    💡 Interested in Front-end development with React, Vite, Figma, and UX/UI Design.
+                    <span>💡</span> Interested in Front-end development with React, Vite, NextJS, Figma, NextJS and UX/UI Design.
                     <br/>
-                    🚀 Trying to be every day a little better than yesterday.
+                    <span>🚀</span> Trying to be every day a little better than yesterday.
                     </p>
                 </div>
             </div>
