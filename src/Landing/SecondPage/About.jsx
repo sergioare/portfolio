@@ -1,13 +1,11 @@
 import './About.scss'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-import { IconButton } from '@mui/material';
 
 const About = () => {
     return (
         <div className="about">
             <div className="left-side">
                 <div className="img-prof">
-                    
                 </div>
             </div>
             <div className="right-side">

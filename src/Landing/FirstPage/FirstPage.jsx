@@ -51,8 +51,10 @@ const FirstPage = () => {
 
             <div className='right-side'>
                 <div className="download">
+                <IconButton href='https://firebasestorage.googleapis.com/v0/b/portfolio-fabc7.appspot.com/o/Resume_CV_pdf.pdf?alt=media&token=53da749f-6137-44b2-9db2-32e1eb88dcf1' target='_blank' rel='noopener noreferrer' className='download-btn'>
                     <p>Download CV</p>
                     <DownloadIcon/>
+                </IconButton>
                 </div>
 
                 <div className='call-to-talk'>

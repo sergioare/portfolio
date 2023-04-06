@@ -139,7 +139,12 @@
             flex-direction: row;
             gap:10px;
             cursor: pointer;
-            margin-bottom: 15px;
+         
+
+            .download-btn{
+                color:$principal-text-color;
+                font-size: 20px ;
+            }
         
         }
         .call-to-talk{
