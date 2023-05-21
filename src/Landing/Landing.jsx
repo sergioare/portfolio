@@ -1,3 +1,4 @@
+import { TrackRecord } from './FifthPage/TrackRecord';
 import FirstPage from './FirstPage/FirstPage';
 import Skills from './FourthPage/Skills';
 import './Landing.scss'
@@ -11,6 +12,7 @@ const Landing = () => {
             <About/>
             <Projects/>
             <Skills/>
+            <TrackRecord/>
         </div>
     );
 };

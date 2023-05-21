@@ -19,7 +19,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="bottom-side">
-
+            
             </div>
             
         </div>

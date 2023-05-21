@@ -27,7 +27,7 @@ const About = () => {
                     <span>🎓</span> I graduated from University Business Foundation of the Chamber of Commerce of Bogota
                     with a Bachelor of International Business degree in 2019, and Fullstack Developer degree from Soy Henry Institute in 2023.
                     <br/>
-                    <span>💡</span> Interested in Front-end development with React, Vite, NextJS, Figma, NextJS and UX/UI Design.
+                    <span>💡</span> Interested in Front-end development with React, Vite, NextJS, Figma, VueJS and UX/UI Design.
                     <br/>
                     <span>🚀</span> Trying to be every day a little better than yesterday.
                     </p>

@@ -11,12 +11,15 @@ import Javascript from '../../assets/Javascript.svg'
 import MUISvg from '../../assets/MUI.svg'
 import Nodejs from '../../assets/Nodejs.svg'
 import npm from '../../assets/npm.svg'
-import Pg from '../../assets/npm.svg'
+import Pg from '../../assets/Pg.svg'
 import ReactSvg from '../../assets/React.svg'
 import ReduxSvg from '../../assets/Redux.svg'
 import Sass from '../../assets/Sass.svg'
 import Vercel from '../../assets/Vercel.svg'
 import VsCode from '../../assets/VsCode.svg'
+import Vue from '../../assets/Vue.svg'
+import Ts from '../../assets/Ts.svg'
+import Next from '../../assets/Next.svg'
 
 
 const Skills = () => {
@@ -50,13 +53,16 @@ const Skills = () => {
                         </ul>
                     </div>
                     <div className="others">
-                        <p>Techs I use every day</p>
+                        <p>Other techs I've done projects with</p>
                         <ul>
                             <li><img src={ESlint} alt='icon'/></li>
                             <li><img src={Pg} alt='icon'/></li>
                             <li><img src={Vercel} alt='icon'/></li>
                             <li><img src={Firebase} alt='icon'/></li>
                             <li><img src={Insomnia} alt='icon'/></li>
+                            <li><img src={Vue} alt='icon'/></li>
+                            <li><img src={Ts} alt='icon'/></li>
+                            <li><img src={Next} alt='icon'/></li>
                         </ul>
                     </div>
                 </div>
