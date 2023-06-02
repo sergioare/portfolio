@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 
     h2{
         display: flex;
@@ -55,11 +55,82 @@
     }
     .left , .right{
         display: flex;
-        justify-content: center;
-        width: 50%;
+        align-items: center;
+        flex-direction: column;
+        width: 48%;
         height: 80%;
+        padding: 15px;
+        
 
         }
+    
+    .exp{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5vh;
+        gap:5vh;
+        width: 70%;
+
+        .cardExp{
+            position:relative;
+            border:2px solid $principal-text-color ;
+            width: 580px;
+            height: 220px ;
+            padding: 30px;
+            border-radius: 16px;
+            
+            .title{
+                color: $tittles;
+                font-weight: bolder;
+                font-size: larger;
+            }
+
+            .task, .description{
+                display: flex;
+                flex-direction: column;
+                color: $subtittles;
+                height:150px ;
+                overflow-y: scroll;
+                gap: 10px;
+                margin-top: 20px;
+                padding-right: 15px; 
+                line-height: 1.5em;
+                       
+            }
+           
+            // .task::-webkit-scrollbar , .description::-webkit-scrollbar {
+            //     -webkit-appearance: none;
+            // }
+            .description::-webkit-scrollbar, .task::-webkit-scrollbar {
+                width: 5px;
+            }
+           
+            .description::-webkit-scrollbar-thumb, .task::-webkit-scrollbar-thumb {
+                background-color: $text-principal-button;    /* color of the scroll thumb */
+                border-radius: 10px;       /* roundness of the scroll thumb */
+              }
+
+            .duration{
+                display: flex;
+                position: absolute;
+                right: 30px;
+                bottom: 30px;
+                color: $text-principal-button
+            }
+            
+            .subtitle{
+                font-weight: 700;
+                color: $subtittles;
+                margin-top: 10px;
+            }
+
+            &:hover{
+                background-color: $bg-cards ;
+                transition: all .5s ease;
+            }
+        }
+    }
     
 
 }

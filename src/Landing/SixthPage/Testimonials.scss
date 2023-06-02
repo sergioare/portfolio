@@ -1,0 +1,112 @@
+@import '../../Styles/variables';
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    padding: 0 8vw 0 8vw;
+    margin-top: 10vh;
+
+
+    .special-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 45px;
+        background-color: $button;
+        color: $text-principal-button;
+        font-weight: bolder;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .name{
+        color: $tittles;
+        font-size: 52px;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        gap:5vh;
+
+        .cardExp{
+            position:relative;
+            border:2px solid $principal-text-color ;
+            width: 30%;
+            padding: 30px;
+            border-radius: 16px;
+
+            .icon, .icon-final{
+                color: $text-principal-button;
+                font-size: 30px;
+                           
+            }
+            .icon-final{
+                position: absolute;
+                right: 30px;
+                bottom: 25px;
+
+            }
+            .title{
+                color: $tittles;
+                font-weight: bolder;
+                font-size: larger;
+            }
+
+            .description{
+                display: flex;
+                flex-direction: column;
+                color: $subtittles;
+                height:150px ;
+                overflow-y: scroll;
+                gap: 10px;
+                margin-top: 20px;  
+                margin-bottom: 30px;  
+                line-height: 1.5em;
+                padding-right: 15px;
+
+                img{
+                    width: 20%;
+                }
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    width: 80%;
+                }
+            }
+             
+            .position{
+                display: flex;
+                right: 30px;
+                bottom: 30px;
+                color: $text-principal-button;
+                font-weight: bolder;
+            }
+            .description::-webkit-scrollbar {
+                width: 5px;              
+            }
+            // .description::-webkit-scrollbar {
+            //     -webkit-appearance: none;
+            // }
+            .description::-webkit-scrollbar-thumb {
+                background-color: $text-principal-button;    /* color of the scroll thumb */
+                border-radius: 10px;       /* roundness of the scroll thumb */
+                border: 3px solid $bg-cards;  /* creates padding around scroll thumb */
+              }
+
+ 
+            &:hover{
+                background-color: $bg-cards ;
+                transition: all .5s ease;
+            }
+        }
+    }
+}

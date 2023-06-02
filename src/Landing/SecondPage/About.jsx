@@ -1,11 +1,13 @@
 import './About.scss'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+import photo from '../../assets/Photo.png'
 
 const About = () => {
     return (
         <div className="about">
             <div className="left-side">
                 <div className="img-prof">
+                    <img src={photo} alt='Serch image'/>
                 </div>
             </div>
             <div className="right-side">

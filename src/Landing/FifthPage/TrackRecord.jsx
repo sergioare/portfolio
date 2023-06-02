@@ -1,5 +1,5 @@
 import './TrackRecord.scss'
-import { professionalExp } from './data'
+import { academyExp, professionalExp } from './data'
 
 export const TrackRecord = () => {
   return (
@@ -15,9 +15,16 @@ export const TrackRecord = () => {
                 {professionalExp.map(exp=>{
                   return( 
                     <div className="cardExp">
-                      <div className="title"></div>
-                      <p className="task"></p>
-                      <div className="duration"></div>
+                      <div className="title">
+                        {exp.titleJob}</div>
+                      <ul className="task">
+                          {exp.tasks.map(task=>(
+                            <li>{task}</li>)
+                            )}
+                        </ul>
+                      <div className="duration">
+                        {`${exp.durationFrom} / ${exp.durationTo} `}
+                        </div>
                     </div>
                  )})}
               </div>
@@ -25,6 +32,20 @@ export const TrackRecord = () => {
 
           <div className='right'>
             <h2>Academy</h2>
+              <div className='exp'>
+                {academyExp.map(exp=>{
+                  return(
+                    <div className='cardExp'>
+                      <div className="title">{exp.degree}</div>
+                      <div className="subtitle">{exp.institution}</div>
+                      <div className='description'>{exp.description}</div>
+                      <div className="duration">
+                        {`${exp.durationFrom} ${exp.durationTo} `}</div>
+                    </div>
+
+                  )
+                })}
+              </div>
           </div>
     </div>
   )
