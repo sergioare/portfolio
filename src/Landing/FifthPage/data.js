@@ -16,7 +16,7 @@ export const professionalExp = [
             "I wrote the documentation for the Front part.",
             "Exercised leadership capabilities by successfully motivating and inspiring others."
         ],
-        durationFrom: "February 2023",
+        durationFrom: "December 2022",
         durationTo: "March 2023",
     },
     {

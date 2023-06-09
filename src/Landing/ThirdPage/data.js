@@ -12,6 +12,12 @@ const projects = [
     images:[]
 },
 {
+    name: 'Filter-list',
+    description: '',
+    techs:[],
+    images:[]
+},
+{
     name: 'HireMySkills',
     description: '',
     techs:[],
@@ -23,10 +29,4 @@ const projects = [
     techs:[],
     images:[]
 },
-{
-    name: 'Filter-list',
-    description: '',
-    techs:[],
-    images:[]
-}
 ]
