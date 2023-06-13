@@ -1,0 +1,132 @@
+@import '../../Styles/variables';
+
+.firstPage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -15vh;
+    padding: 30px;
+
+   
+    .left-side{
+        display: flex;
+        width: 456px;
+        height: 456px;
+        margin-right: 100px;
+        border: 1px solid $border;
+
+        .wrapper-left{
+            display: flex;
+            flex: content;
+            flex-direction: column;
+            width: 364px;
+            height: 300px;
+            margin-top: 140px;
+            margin-left: 89px;
+
+
+            .special-btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 160px;
+                height: 45px;
+                background-color: $button;
+                color: $text-principal-button;
+                font-weight: bolder;
+                border-radius: 16px;
+            }
+
+            .name{
+                color: $tittles;
+                font-size: 52px;
+                font-weight: bolder;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            .degree{
+               font-size: 20px;
+               color: $subtittles; 
+            }
+            
+            .icons{
+                width: 25%;
+                height: 33px;
+                margin-top: 25px;
+
+                .icon{
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 10px;
+                    color: $subtittles;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+    }
+
+    .center-side{
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:570px ;
+            height:604.55px ;
+            margin-top: -40px;
+        }
+    }
+
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 16px ;
+        width: 196px;
+        height: 73px;
+        
+        color:$principal-text-color;
+
+        .download{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            flex-direction: row;
+            gap:10px;
+            cursor: pointer;
+         
+
+            .download-btn{
+                color:$principal-text-color;
+                font-size: 20px ;
+            }
+        
+        }
+        .call-to-talk{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            height: 45px;
+            border: 1px solid $principal-text-color;
+            border-radius: 15px;
+            cursor: pointer;
+
+            .whatsapp{
+                color:$principal-text-color;
+                font-size: 20px ;
+
+                p{
+                    margin-left: 15px;
+                }
+            }
+
+        }
+    }
+    
+}

@@ -1,0 +1,49 @@
+@import '../../Styles/variables';
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 38px;
+       
+}
+.wrapper{    
+    display: flex;
+    align-items: center;
+    background-color: $navbar-color;
+    border-radius: 20px;
+    flex-basis: 85%;
+    height: 64px ;
+    z-index: 9999;
+
+
+    .left{
+       display: flex;
+       width: 25%;
+       align-items: center;
+       
+       img{
+        height: 64px ;
+        margin-left: 20px;
+       }
+    }
+
+    .right{
+    width: 75%;
+    height: 64px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+  
+        .navbar-option{
+            // font-weight: bolder;
+            // color: $principal-text-color;
+            color: $subtittles;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    
+}

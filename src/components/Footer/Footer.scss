@@ -1,0 +1,33 @@
+@import '../../Styles/variables';
+
+.end{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: $bg-cards;
+    bottom: 0;
+
+    p{
+        display: flex;
+        position: absolute;
+        left: 30px;
+        color: $subtittles;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        height: 33px;
+
+        .icon{
+            width: 32px;
+            height: 32px;
+            margin-right: 10px;
+            color: $subtittles;
+            cursor: pointer;
+        }
+    }
+}
