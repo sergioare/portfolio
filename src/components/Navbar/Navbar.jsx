@@ -1,6 +1,7 @@
 import logo from '../../assets/Logo.png';
 import {Link} from 'react-router-dom'
 import { navbarItems } from './data';
+import Modals from '../../modal/Modals'
 import './Navbar.scss'
 
  const Navbar = () => {
@@ -20,7 +21,7 @@ import './Navbar.scss'
                         </Link>
                     </div>
                 ))}
-                
+                <Modals/>
             </div>
         </div>
     </div>

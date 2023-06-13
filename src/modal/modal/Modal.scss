@@ -1,0 +1,36 @@
+@import '../../Styles/variables';
+
+.modal{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $navbar-color;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    .is-open{
+        display: flex;
+    }
+}
+
+.modal-container{
+    position: relative;
+    padding: 1rem;
+    width: 40vw;
+    height: 70hv;
+    overflow:hidden;
+    background-color: $tittles;
+    border: 1.2px solid $subtittles;
+    border-radius: 40px;
+}
+
+.modal-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $button;
+}

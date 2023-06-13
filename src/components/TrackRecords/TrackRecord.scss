@@ -6,6 +6,8 @@
     justify-content: center;
     width: 100vw;
     height: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
 
     h2{
         display: flex;
@@ -16,7 +18,7 @@
         margin-bottom: 15px;
     }
 
-    .wrapper{
+    .wrapper-record{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

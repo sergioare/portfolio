@@ -1,6 +1,6 @@
 import {Routes, Route} from 'react-router-dom'
 import './App.scss'
-import { About, Contact, Home, Projects, Skills, Testimonials, TrackRecord } from './components'
+import { About, Contact, Home, Login, Projects, Skills, Testimonials, TrackRecord } from './components'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Route path='/degrees' element={<TrackRecord/>}/>
         <Route path='/testimonials' element={<Testimonials/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
     </div>
   )

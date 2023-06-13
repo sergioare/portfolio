@@ -27,8 +27,5 @@ export const navbarItems =[
         name: "Contact",
         path: '/contact',
     },
-    {
-        name: "Login",
-        path: '/login',
-    }
+   
 ]

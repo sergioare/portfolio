@@ -4,7 +4,7 @@ import { academyExp, professionalExp } from './data'
 const TrackRecord = () => {
   return (
     <div className="track-record">
-        <div className="wrapper">
+        <div className="wrapper-record">
           <div className='special-btn'>💼 Career</div>
           <div className='name'> Career Development</div>
         </div>
