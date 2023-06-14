@@ -3,7 +3,7 @@ import {Login} from '../components'
 import useModal from '../Hooks/useModal'
 import './Modals.scss'
 
-export const modals = () => {
+ const modals = () => {
     const [isOpenModalLogin, openModalLogin, closeModalLogin] =useModal(false)
   return (
     <div>
@@ -14,3 +14,4 @@ export const modals = () => {
     </div>
   )
 }
+export  default modals;

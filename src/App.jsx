@@ -4,7 +4,6 @@ import { About, Contact, Home, Login, Projects, Skills, Testimonials, TrackRecor
 
 function App() {
   return (
-    <div>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about-me' element={<About/>}/>
@@ -15,7 +14,6 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/login' element={<Login/>}/>
       </Routes>
-    </div>
   )
 }
 

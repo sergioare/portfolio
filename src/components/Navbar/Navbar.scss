@@ -38,11 +38,16 @@
     font-size: 18px;
   
         .navbar-option{
-            // font-weight: bolder;
-            // color: $principal-text-color;
+           
             color: $subtittles;
             cursor: pointer;
             text-decoration: none;
+            
+            &:hover{
+            font-weight: bolder;
+            color: $principal-text-color;
+            scale: 1.2;
+            }
         }
     }
     

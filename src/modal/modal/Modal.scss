@@ -12,20 +12,26 @@
     justify-content: center;
     align-items: center;
 
-    .is-open{
-        display: flex;
-    }
+    
+}
+.modal.is-open{
+    display: flex;
 }
 
 .modal-container{
     position: relative;
     padding: 1rem;
-    width: 40vw;
-    height: 70hv;
+    width: 500px;
+    height: 450px;
     overflow:hidden;
-    background-color: $tittles;
     border: 1.2px solid $subtittles;
     border-radius: 40px;
+    color:$subtittles;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: $bg-cards;
+    backdrop-filter: blur(25px);
 }
 
 .modal-close{
