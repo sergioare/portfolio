@@ -20,9 +20,15 @@ import VsCode from '../../assets/VsCode.svg'
 import Vue from '../../assets/Vue.svg'
 import Ts from '../../assets/Ts.svg'
 import Next from '../../assets/Next.svg'
+import { analytics } from '../../firebase'
+import { logEvent } from 'firebase/analytics'
+import { useEffect } from 'react'
 
 
 const Skills = () => {
+    useEffect(()=>{
+        logEvent(analytics,"Skills_visited")
+})
     return (
         <div className="skills">
             <div className="wrapper-skills">

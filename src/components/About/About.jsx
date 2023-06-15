@@ -1,8 +1,14 @@
 import './About.scss'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import photo from '../../assets/Photo.png'
+import {analytics} from '../../firebase'
+import { logEvent } from 'firebase/analytics';
+import { useEffect } from 'react';
 
 const About = () => {
+    useEffect(()=>{
+        logEvent(analytics,"About_visited")
+})
     return (
         <div className="about">
             <div className="left-side">

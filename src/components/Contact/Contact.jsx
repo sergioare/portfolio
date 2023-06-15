@@ -3,11 +3,15 @@ import { IconButton } from '@mui/material';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import copy from '../../assets/CopySimple.svg'
 import send from '../../assets/send.svg'
-
+import {analytics}  from '../../firebase'
+import { logEvent } from 'firebase/analytics';
 import './Contact.scss'
+import { useEffect } from 'react';
 
 const Contact = ()=> {
-
+    useEffect(()=>{
+        logEvent(analytics,"Contact_visited")
+})
   return (
     <div className="contact">
         <div className='special-btn'>📬 Contact · me</div>

@@ -5,8 +5,15 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import DownloadIcon from '@mui/icons-material/Download';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { analytics } from '../../firebase';
+import { logEvent } from "firebase/analytics";
+import { useEffect } from 'react';
+
 
 const Home = () => {
+    useEffect(()=>{
+             logEvent(analytics,"HomePage_visited")
+    })
     return (
         <div className='firstPage'>
    

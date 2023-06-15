@@ -4,13 +4,14 @@ import server from '../../assets/server.svg'
 import Swal from 'sweetalert2';
 import { useEffect, useState } from 'react';
 import { AddProject } from './Forms';
-import { db } from '../../firebase';
+import { analytics, db } from '../../firebase';
 import { collection, addDoc, getDoc, getDocs, doc, setDoc, deleteDoc,onSnapshot,query, updateDoc, arrayUnion } from "firebase/firestore";
 import { storage } from '../../firebase';
 import {  ref, getDownloadURL } from "firebase/storage";
 import Modals from '../../modal/Modals';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { logEvent } from 'firebase/analytics';
 
 const Projects =  () => {
     const [isAdmin, setIsAdmin] = useState(false)
@@ -98,7 +99,9 @@ const Projects =  () => {
         }
       };
 
-        useEffect(()=>{
+        useEffect(()=>{ 
+       
+           logEvent(analytics,"Portfolio_visited")
            getProjects()
         },[])
 
