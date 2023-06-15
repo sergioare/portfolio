@@ -1,6 +1,6 @@
 import './Skills.scss'
 import CssSvg from '../../assets/Css.svg'
-import ESlint from '../../assets/ESlint.svg'
+import ESlint from '../../assets/ESLint.svg'
 import Figma from '../../assets/Figma.svg'
 import Firebase from '../../assets/Firebase.svg'
 import Git from '../../assets/Git.svg'
