@@ -3,13 +3,15 @@ import {Login} from '../components'
 import useModal from '../Hooks/useModal'
 import './Modals.scss'
 
- const modals = () => {
+ const modals = ({name, children, classNameProp}) => {
     const [isOpenModalLogin, openModalLogin, closeModalLogin] =useModal(false)
   return (
     <div>
-        <button onClick={openModalLogin} className="login-btn">Login</button>
+        <button onClick={openModalLogin} className={classNameProp}>{name}</button>
         <Modal isOpen={isOpenModalLogin} closeModal={closeModalLogin}>
-            <Login/>
+            <>
+            {children}
+            </>
         </Modal>
     </div>
   )

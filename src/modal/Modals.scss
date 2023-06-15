@@ -18,3 +18,27 @@
         }
     
 }
+.special-btn{
+    display: flex;
+    width: 160px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: $button;
+    color: $text-principal-button;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 16px;
+
+    .special-btn.edit{
+        display: flex;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: $principal-text-color ;
+        }
+    }
+}

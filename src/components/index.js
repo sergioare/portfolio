@@ -4,6 +4,8 @@ export * from './Footer';
 export * from './Home';
 export * from './Login';
 export * from './Navbar';
+export * from './Projects/Forms/addProject';
+export * from './Projects/Forms';
 export * from './Projects';
 export * from './Register';
 export * from './Skills';

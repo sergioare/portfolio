@@ -22,7 +22,8 @@
     position: relative;
     padding: 1rem;
     width: 500px;
-    height: 450px;
+    min-height: 450px;
+    height: auto;
     overflow:hidden;
     border: 1.2px solid $subtittles;
     border-radius: 40px;
