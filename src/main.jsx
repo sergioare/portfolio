@@ -6,13 +6,12 @@ import Footer from './components/Footer/Footer'
 import App from './App'
 import { AuthContextProvider } from './firebase'
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <AuthContextProvider>
-      <Navbar />
-      <App />
-      <Footer />
+        <Navbar/>
+        <App />
+        <Footer/>
     </AuthContextProvider>
   </BrowserRouter>,
-  document.getElementById('root')
-);
+)
